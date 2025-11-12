@@ -7,10 +7,11 @@ import tour6 from "./assets/images/tour-2.jpeg";
 import tour7 from "./assets/images/tour-3.jpeg";
 
 export const pageLinks = [
-  { id: 1, href: "#home", text: "home" },
-  { id: 2, href: "#about", text: "about" },
-  { id: 3, href: "#services", text: "services" },
-  { id: 4, href: "#tours", text: "tours" },
+  { id: 1, href: "/", text: "home" },
+  { id: 2, href: "/about", text: "about" },
+  { id: 3, href: "/services", text: "services" },
+  { id: 4, href: "/tours", text: "tours" },
+  { id: 5, href: "*", text: "notFound" },
 ];
 
 export const socialLinks = [
