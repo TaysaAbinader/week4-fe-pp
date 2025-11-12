@@ -1,4 +1,4 @@
-function Tour({ image, date, title, info, location, duration, cost, difficulty, rating }) {
+function Tour({ image, date, title, info, location, duration, cost, difficulty, rating, handleDelete }) {
   return (
     <article className="tour-card">
       <div className="tour-img-container">
@@ -21,6 +21,9 @@ function Tour({ image, date, title, info, location, duration, cost, difficulty, 
           </p>
           <p>from {cost}</p>
           <p>{duration} days</p>
+            <button onClick={handleDelete} className="delete-button">
+                Delete
+            </button>
         </div>
       </div>
     </article>
